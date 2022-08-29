@@ -8,8 +8,8 @@ import {Feed, Navbar, SearchFeed, VideoDetails, ChannelDetails} from './componen
 
 const App = () => (
    <BrowserRouter>
-      <Box>
-         <Navbar/>
+      <Box >
+         <Navbar />
          <Routes>
             <Route path="/" exact element={<Feed/>} />
             <Route path="/video/:id" exact element={<VideoDetails/>} />

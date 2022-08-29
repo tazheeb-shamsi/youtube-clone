@@ -8,9 +8,11 @@ const SideBar = ({ selectedCategory, setSelectedCategory }) => (
     sx={{
       overflowY: "auto",
       height: { sx: "auto", md: "95%" },
-      flexDirection: { md: "column" },      
+      flexDirection: { md: "column" },
+      borderRadius: '4px', 
+      background: 	'#F8F8FF',     
     }}
-    style={{border:"none", boxShadow: "0 5px 5px 0 rgba(0, 0, 0, 0.1)"}}
+    style={{ boxShadow: "0px 5px 5px 0px rgba(0, 0, 0, 0.1)"}}
   >
     {categories.map((category) => (
       <button
