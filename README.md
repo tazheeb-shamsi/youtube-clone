@@ -1,3 +1,6 @@
+
+![Screenshot 2023-07-03 190342](https://github.com/tazheeb-shamsi/youtube-clone/assets/94049470/c5958524-896b-497a-94bd-bd9f15dd8c77)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
